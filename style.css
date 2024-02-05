@@ -1,0 +1,126 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    width: 400px;
+    height: min-content;
+    border-radius: 20px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.header{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 23px 23px;
+    justify-content: space-around;
+    background-color: white;
+}
+.header input{
+    border: none;
+    outline: none;
+    background-color:rgb(200, 200, 248);
+    border-radius: 20px;
+    padding: 10px;
+    width: 290px;
+
+}
+.header button{
+    border: none;
+    font-size: 20px;
+    background-color: rgb(200, 200, 248);
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.header input::placeholder{
+    color: black;
+}
+
+.whether-body{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whether-box{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.whether-box img{
+    width: 200px;
+}
+.whether-box .temp{
+    font-size: 40px;
+    font-weight:1000;
+    margin-top: 10px;
+}
+.whether-box sup{
+    font-weight: 500;
+    font-size: 20px;
+}
+.whether-box .whether{
+    font-size: 20px;
+    font-weight:700;
+    text-transform: capitalize;
+}
+
+.whether-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+.humidity, .wind{
+    display: flex;
+}
+.whether-details i{
+    font-size: 25px;
+    font-weight: 500px;
+    /* margin-top: 30px; */
+}
+.whether-details .text{
+    margin-left: 10px;
+}
+.whether-details span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.whether-details p{
+    font-size: 17px;
+} 
+
+.location-not-found{
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.location-not-found h1{
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-block-end: 15px;
+}
+.location-not-found{
+    width: 80%;
+
+}
